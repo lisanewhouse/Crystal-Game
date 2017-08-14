@@ -1,0 +1,31 @@
+body {
+	background-color: gray;
+	color: black;
+
+}
+
+.crystal-image {
+	margin: 20px;
+	max-width: 100px;
+	max-height: 100px;
+
+}
+
+.container {
+	padding: 50px;
+}
+
+.gems {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+#target, #counter {
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	border-style: solid;
+	border-color: darkblue;
+	text-align: center;
+	padding: 10x;
+}

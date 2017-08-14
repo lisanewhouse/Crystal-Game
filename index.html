@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CrystalCollectorGame</title>
+
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+ 	<script src="https://code.jquery.com/jquery.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	
+
+</head>
+<body>
+<div  id = "wrapper" class="container">
+
+<h1>Crystal Collector!</h1>
+
+	<div class="directions">
+		<p>You will be given a random number at the start of the gam.</p>
+		<p>There aree four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
+		<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+		<p>The value of each crystal is hidden from you until you click on it.</p>
+		<p>Each time when the game starts, the game will change the values of each crystal.</p>
+	</div>
+	<div id="target">
+	</div>
+	<div id="counter">
+		
+	</div>
+	<div id="crystals">
+		<img src="assets/images/pearl.jpg" alt="pearl" class ="gems" id="pearl">
+		<img src="assets/images/garnet.jpg" alt="garnet" class ="gems" id="garnet">
+		<img src="assets/images/amethyst.jpg" alt="amethyst" class="gems" id="amethyst">
+		<img src="assets/images/peridot.jpg" alt="peridot" class="gems" id="peridot">
+	</div>
+	<div id="score">
+		<div id="win"></div>
+		<div id="loss"></div>
+	</div>
+</div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
